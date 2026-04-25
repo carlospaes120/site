@@ -3,16 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Scapegoat ABM</title>
+  <title>Carlos Paes</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container">
-      <div class="logo">Scapegoat ABM</div>
+      <div class="logo">Carlos Paes</div>
       <nav class="main-nav" aria-label="Navegação principal">
         <a href="#hero">Início</a>
-        <a href="#video">Vídeo</a>
         <a href="#blog">Artigos</a>
         <a href="#experimentos">Experimentos</a>
         <a href="#contato">Contato</a>
@@ -26,18 +25,17 @@
       <div class="container hero-grid">
         <div class="hero-content">
           <span class="tagline">Pesquisa em sistemas complexos</span>
-          <h1>Scapegoat ABM</h1>
-          <p class="hero-subtitle">Modelagem Baseada em Agentes Aplicada ao Fenômeno do Bode Expiatório</p>
+          <h1>Carlos Paes</h1>
+          <p class="hero-subtitle">Scapegoat ABM — Modelagem Baseada em Agentes Aplicada ao Fenômeno do Bode Expiatório</p>
           <p class="hero-description">
             Explore nossa simulação, veja a apresentação em vídeo e acesse os artigos e experimentos
             que mostram como o mecanismo vitimário pode ser estudado em sistemas complexos.
           </p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#video">Assistir ao vídeo</a>
-            <a class="btn btn-outline" href="artigos.html">Ver artigos completos</a>
           </div>
           <figure class="simulation-figure">
-            <img src="assets/img/simulacao.png" alt="Simulação Scapegoat ABM em funcionamento">
+            <img src="img/simulacao.png" alt="Simulação Scapegoat ABM em funcionamento">
             <figcaption>Simulação Scapegoat ABM em funcionamento</figcaption>
           </figure>
           <div class="hero-actions" style="margin-top: 24px;">
@@ -51,38 +49,20 @@
     <section class="section" id="blog">
       <div class="container">
         <header class="section-header">
-          <span class="section-kicker">Blog &amp; Pesquisa</span>
-          <h2>Reflexões e Artigos</h2>
-          <p>Insights teóricos e análises críticas sobre mimetismo, violência coletiva e mecanismos de sacrifício.</p>
+          <span class="section-kicker">Publicações</span>
+          <h2>Artigos</h2>
+          <p>Artigos publicados sobre mimetismo, violência coletiva e mecanismos de sacrifício.</p>
         </header>
         <div class="card-grid">
           <article class="card">
-            <h3>A Emergência do Símbolo no ABM</h3>
-            <p>Como padrões simbólicos surgem quando agentes compartilham crenças e buscam preservar o coletivo.</p>
-            <!-- // inserir novo texto do blog aqui -->
-            <a class="btn btn-text" href="artigos.html#artigo-1">Ler mais</a>
-          </article>
-          <article class="card">
-            <h3>Paradoxo do Líder e Função Sacrificial</h3>
-            <p>O papel do líder como vetor de ordem e alvo potencial na dinâmica do bode expiatório.</p>
-            <!-- // inserir novo texto do blog aqui -->
-            <a class="btn btn-text" href="artigos.html#artigo-2">Ler mais</a>
-          </article>
-          <article class="card">
-            <h3>A Marginalidade na Escolha da Vítima</h3>
-            <p>Critérios de seleção da vítima sacrificial e os efeitos da marginalização em sistemas sociais.</p>
-            <!-- // inserir novo texto do blog aqui -->
-            <a class="btn btn-text" href="artigos.html#artigo-3">Ler mais</a>
-          </article>
-          <article class="card">
-            <h3>Artigo Pronto</h3>
+            <h3>Scapegoat: A NetLogo Agent-Based Model of Scapegoating in Coevolving Networks</h3>
             <p>Versão completa do artigo do projeto Scapegoat ABM (PDF).</p>
-            <a class="btn btn-primary" href="assets/pdf/artigo-pronto.pdf" target="_blank" rel="noopener">Abrir PDF</a>
+            <a class="btn btn-primary" href="pdf/netlogo-paper-final.pdf" target="_blank" rel="noopener">Abrir PDF</a>
           </article>
           <article class="card">
             <h3>Measuring the Scapegoat Mechanism</h3>
             <p>Artigo sobre métricas e medição do mecanismo do bode expiatório (PDF).</p>
-            <a class="btn btn-primary" href="assets/pdf/measuring-the-scapegoat-mechanism2.pdf" target="_blank" rel="noopener">Abrir PDF</a>
+            <a class="btn btn-primary" href="pdf/Measuring-the-scapegoat-mechanism2.pdf" target="_blank" rel="noopener">Abrir PDF</a>
           </article>
         </div>
       </div>
@@ -91,42 +71,62 @@
     <section class="section section-muted" id="experimentos">
       <div class="container">
         <header class="section-header">
-          <span class="section-kicker">BehaviorSpace</span>
+          <span class="section-kicker">BehaviorSpace &amp; Redes Sociais Reais</span>
           <h2>Experimentos e Dados</h2>
           <p>
-            Resultados preliminares e métricas derivadas das simulações. Atualize os cards com novos indicadores conforme
-            os experimentos avançam.
+            Resultados que combinam duas frentes complementares: simulações do ABM no BehaviorSpace e
+            análise empírica de quatro casos reais de cancelamento no Twitter (Monark, Karol Conká,
+            Wagner Schwartz e Eduardo Bueno).
           </p>
         </header>
         <div class="card-grid experiments-grid">
           <article class="card card-media">
             <figure>
-              <img src="img/grafico1.jpg" alt="Gráfico de tensão coletiva ao longo do tempo">
+              <img src="img/abm_structural_scar.png" alt="Coeficiente de clustering ao longo do tempo em 14 simulações do ABM, mostrando queda persistente após o evento ritual e histograma da magnitude da queda">
             </figure>
             <div class="card-body">
-              <h3>Tensão Coletiva</h3>
-              <p>A tensão global diminui após o sacrifício, validando o mecanismo girardiano observado na simulação.</p>
-              <!-- // inserir gráfico do BehaviorSpace aqui -->
+              <h3>Figura 1 — Cicatriz estrutural pós-ritual (ABM)</h3>
+              <p>
+                Coeficiente de clustering ao longo do tempo em 14 execuções do modelo
+                (<em>skepticism = 60, num-nodes = 60</em>). À esquerda, a média (linha vermelha)
+                cai de 0,405 — o <em>baseline</em> pré-ritual — para cerca de 0,27 após o
+                evento sacrificial. À direita, a distribuição da magnitude da queda por <em>run</em>,
+                com média de 39%. A simulação evidencia uma <strong>cicatriz topológica persistente</strong>
+                após o sacrifício: a rede não retorna à coesão original.
+              </p>
             </div>
           </article>
           <article class="card card-media">
             <figure>
-              <img src="img/grafico2.jpg" alt="Gráfico de conectividade da rede social dos agentes">
+              <img src="img/real_heatmap.png" alt="Heatmap comparando métricas do efeito defensor nos quatro casos empíricos de cancelamento no Twitter">
             </figure>
             <div class="card-body">
-              <h3>Conectividade Social</h3>
-              <p>Relações intermediadas por líderes reduzem a probabilidade de conflitos simétricos entre pares.</p>
-              <!-- // inserir gráfico do BehaviorSpace aqui -->
+              <h3>Figura 2 — Métricas do efeito defensor (dados empíricos)</h3>
+              <p>
+                <em>Heatmap</em> normalizado comparando sete métricas do efeito de defensores
+                nos quatro casos empíricos analisados. As métricas incluem atraso na defesa,
+                razão defensor/acusador, polarização do discurso de acusação e indicadores
+                de engajamento (retweets e curtidas). <strong>Verde</strong> indica valores
+                relativos favoráveis aos defensores; <strong>vermelho</strong>, favoráveis
+                aos acusadores. A leitura cruzada permite contrastar dinâmicas distintas
+                em cada caso.
+              </p>
             </div>
           </article>
           <article class="card card-media">
             <figure>
-              <img src="img/grafico3.jpg" alt="Gráfico de distribuição de vitimização">
+              <img src="img/real_victim_share.png" alt="Proporção diária de tweets que nomeiam explicitamente a vítima ao longo do tempo, alinhados ao pico de engajamento">
             </figure>
             <div class="card-body">
-              <h3>Distribuição de Vitimização</h3>
-              <p>Agentes marginalizados concentram a vitimização, evidenciando viés estrutural na perseguição.</p>
-              <!-- // inserir gráfico do BehaviorSpace aqui -->
+              <h3>Figura 3 — Vítima como símbolo no clímax (dados empíricos)</h3>
+              <p>
+                Proporção diária de <em>tweets</em> que nomeiam explicitamente a vítima nos
+                quatro casos analisados, alinhados ao pico de engajamento (<em>t = 0</em>).
+                Em <strong>3 dos 4 casos</strong>, a menção direta à vítima cai justamente no
+                momento do clímax: o discurso se amplia para temas mais gerais (racismo, nazismo,
+                pedofilia, <em>cancel-culture</em>) e a vítima passa a funcionar como
+                <strong>símbolo coletivo</strong>, não mais como referência específica.
+              </p>
             </div>
           </article>
         </div>
